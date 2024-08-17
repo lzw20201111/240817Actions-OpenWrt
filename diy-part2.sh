@@ -25,7 +25,3 @@ sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/M
 # rm -rf package/luci-app-amlogic
 # git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
 git clone https://github.com/lzw20201111/luci-app-virtualhere.git package/luci-app-virtualhere
-git clone https://github.com/OrayOS/OpenOray.git package/openwrt-packages/luci-app-pgyvpn
-git clone https://github.com/OrayOS/OpenOray.git package/openwrt-packages/luci-app-phtunnel
-git clone https://github.com/OrayOS/OpenOray.git package/openwrt-packages/pgyvpn
-git clone https://github.com/OrayOS/OpenOray.git package/openwrt-packages/phtunnel
