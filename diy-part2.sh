@@ -18,3 +18,12 @@
 
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
+
+# ------------------------------- Other started -------------------------------
+#
+# Add luci-app-amlogic
+# rm -rf package/luci-app-amlogic
+# git clone https://github.com/ophub/luci-app-amlogic.git package/luci-app-amlogic
+git clone https://github.com/lzw20201111/luci-app-virtualhere.git package/luci-app-virtualhere
+git clone https://github.com/OrayOS/OpenOray.git package/openwrt-packages/luci-app-pgyvpn
+git clone https://github.com/OrayOS/OpenOray.git package/openwrt-packages/pgyvpn
